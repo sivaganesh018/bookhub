@@ -1,0 +1,117 @@
+.header-container {
+  height: 56px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+
+  /* Text Color / Alternative */
+
+  background: #ffffff;
+  /* Basic / 300 */
+
+  border: 1px solid #e4e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .header-container {
+    height: 89px;
+    width: 1440px;
+  }
+}
+.book-hub-logo-img {
+  width: 92px;
+  height: 24px;
+  left: 150px;
+  top: 24px;
+  margin-left: 24px;
+}
+@media screen and (min-width: 768px) {
+  .book-hub-logo-img {
+    margin-left: 150px;
+    width: 133px;
+    height: 41px;
+  }
+}
+.header-menu {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-right: 150px;
+}
+@media screen and (max-width: 767px) {
+  .header-menu {
+    display: none;
+  }
+}
+.header-menu-mobile {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-item {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #0284c7;
+  margin-right: 32px;
+}
+.logout-btn {
+  width: 73px;
+  height: 32px;
+
+  background: #0284c7;
+  border-radius: 4px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / blue-gray / 50 */
+
+  color: #f8fafc;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.menu-icon {
+  color: #475569;
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+}
+.trigger-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.popup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.pop-up-menu-mobile {
+  display: flex;
+}
+.link-item {
+  text-decoration: none;
+  cursor: pointer;
+}

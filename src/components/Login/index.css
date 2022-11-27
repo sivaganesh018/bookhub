@@ -1,0 +1,149 @@
+.login-page {
+  position: relative;
+  height: 100vh;
+  background: #f8fafc;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .login-page {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    flex-direction: row;
+  }
+}
+.login-page-background {
+  width: 780px;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .login-page-background {
+    display: none;
+    width: 780px;
+    height: 1024px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+.mobile-login-banner {
+  width: 216px;
+  height: 216px;
+  left: 72px;
+  margin: 0;
+  margin-top: 32px;
+}
+@media screen and (min-width: 767px) {
+  .mobile-login-banner {
+    display: none;
+  }
+}
+.login-form-container {
+  height: 484px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .login-form-container {
+    background-color: #ffffff;
+    width: 499px;
+    margin-left: 72px;
+    margin-right: 89px;
+  }
+}
+.book-hub-logo-mobile {
+  margin-top: 16px;
+}
+@media screen and (min-width: 768px) {
+  .book-hub-logo-mobile {
+    display: none;
+  }
+}
+.book-hub-logo {
+  margin: 0;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .book-hub-logo {
+    display: none;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  box-sizing: border-box;
+
+  background: #ffffff;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #183b56;
+  padding: 14px 14px;
+  width: 280px;
+}
+@media screen and (min-width: 768px) {
+  .input {
+    padding: 10px 14px;
+    width: 300px;
+  }
+}
+.input-label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #5a7184;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+.login-btn {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  background: #0284c7;
+  border-radius: 8px;
+  border: none;
+  margin-top: 15px;
+  padding: 10px 16px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.error-msg {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* Light / red / 500 */
+
+  color: #ef4444;
+  margin: 0;
+  margin-top: 5px;
+}

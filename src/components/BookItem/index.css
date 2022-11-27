@@ -1,0 +1,103 @@
+.book-item {
+  width: 330px;
+  height: 155px;
+  display: flex;
+  margin-left: 12px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .book-item {
+    margin-right: 122px;
+    align-items: flex-start;
+  }
+}
+.book-image {
+  width: 133px;
+  height: 155px;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+.book-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #334155;
+  margin: 0;
+}
+.author-name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+  margin: 0;
+  margin-top: 8px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+.book-rating {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+  margin: 0;
+  margin-right: 4px;
+}
+.rating {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  display: flex;
+  align-items: center;
+
+  /* Light / blue-gray / 700 */
+
+  color: #334155;
+  margin: 0;
+  margin-left: 4px;
+}
+.star-icon {
+  color: #fbbf24;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
+.book-status {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+  margin: 0;
+  margin-top: 8px;
+}
+.status {
+  color: #0284c7;
+}
